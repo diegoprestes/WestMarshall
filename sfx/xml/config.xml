@@ -1,0 +1,77 @@
+<data>
+	<item id='default_lang'>en</item>
+	
+	<item id='screen_bg'>0xFF666666</item>
+	
+	<item id='tile_size'>40</item>
+	
+	<item id='game_width'>800</item>
+	<item id='game_height'>600</item>
+	
+	<item id='game_zoom'>1</item>
+	<item id='game_framerate'>60</item>
+	<item id='flash_framerate'>30</item>
+	
+	<item id='background_far_scroll_x'>0.3</item>
+	<item id='background_far_scroll_y'>0</item>
+	
+	<item id='background_close_scroll_x'>0.5</item>
+	<item id='background_close_scroll_y'>0</item>
+	
+	<item id='foreground_scroll_x'>1.5</item>
+	<item id='foreground_scroll_y'>0</item>
+	
+	<item id='walk_speed'>160</item>
+	<item id='run_speed'>260</item>
+	<item id='jump_speed'>-400</item>
+	
+	<item id='enemy_speed'>60</item>
+	<item id='enemy_sight'>5</item>
+	
+	<item id='accelerationY'>850</item>
+	<item id='dragX'>300</item>
+	<item id='maxVelocityY'>400</item>
+	
+	<!--  Weapon Data -->
+	<item id='pistol_damage'>1</item>
+	<item id='pistol_range'>500</item>
+	<item id='pistol_limit'>oo</item>
+	<item id='pistol_speed'>200</item>
+	<item id='pistol_fire_rate'>1000</item>
+	<item id='pistol_badge'>500</item>
+	
+	<item id='revolver_damage'>2</item>
+	<item id='revolver_range'>500</item>
+	<item id='revolver_limit'>50</item>
+	<item id='revolver_speed'>300</item>
+	<item id='revolver_fire_rate'>800</item>
+	<item id='revolver_badge'>500</item>
+	<item id='revolver_price'>400</item>
+	<item id='revolver_ammo_price'>50</item>
+	
+	<item id='shotgun_damage'>2</item>
+	<item id='shotgun_range'>300</item>
+	<item id='shotgun_limit'>15</item>
+	<item id='shotgun_speed'>250</item>
+	<item id='shotgun_fire_rate'>2000</item>
+	<item id='shotgun_badge'>500</item>
+	<item id='shotgun_price'>1000</item>
+	<item id='shotgun_ammo_price'>100</item>
+	
+	<item id='rifle_damage'>4</item>
+	<item id='rifle_range'>800</item>
+	<item id='rifle_limit'>30</item>
+	<item id='rifle_speed'>500</item>
+	<item id='rifle_fire_rate'>1500</item>
+	<item id='rifle_badge'>500</item>
+	<item id='rifle_price'>3000</item>
+	<item id='rifle_ammo_price'>150</item>
+	
+	<item id='bandits_badge'>100</item>
+	<item id='indians_badge'>100</item>
+	<item id='mexicans_badge'>100</item>
+	
+	<item id='rare_item_limit'>0.2</item>
+	
+	<item id=''></item>
+</data>

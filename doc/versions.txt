@@ -1,0 +1,14 @@
+- Flixel:
+v2.5 - Beta
+build: AdamAtomic-flixel-1d398b3
+
+- Flixel Power Tools:
+Latest Version: 1.9 (github)
+Released: October 11th 2011
+Total Examples: 84
+
+- as3console:
+v0.3
+
+- greensock:
+v11

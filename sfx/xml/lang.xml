@@ -1,0 +1,152 @@
+<data>
+	<!-- General -->
+	<item id='back_btn_en'>Back</item>
+	
+	<item id='back_btn_pt'>Voltar</item>
+
+	<!-- Start Screen -->
+	<item id='start_history_btn_en'>History</item>
+	<item id='start_multiplayer_btn_en'>Multiplayer</item>
+	<item id='start_store_btn_en'>Store</item>
+	<item id='start_achievements_btn_en'>Achievements</item>
+	<item id='start_controls_btn_en'>Controls</item>
+	
+	<item id='start_history_btn_pt'>Historia</item>
+	<item id='start_multiplayer_btn_pt'>Multiplayer</item>
+	<item id='start_store_btn_pt'>Loja</item>
+	<item id='start_achievements_btn_pt'>Conquistas</item>
+	<item id='start_controls_btn_pt'>Controles</item>
+	
+	<!-- History Screen -->
+	<item id='history_title_en'>History Mode</item>
+	<item id='history_episode1_en'>Episode 1: The Beggining</item>
+	<item id='history_episode2_en'>Episode 2: The Sheriff</item>
+	<item id='history_episode3_en'>Episode 3: The Marshall</item>
+	
+	<item id='history_title_pt'>Modo Historia</item>
+	<item id='history_episode1_pt'>Episodio 1: O Comeco</item>
+	<item id='history_episode2_pt'>Episodio 2: O Xerife</item>
+	<item id='history_episode3_pt'>Episodio 3: O Marshall</item>
+	
+	<!-- History Episode Screen -->
+	<item id='history_episode_stage_en'>Select Stage</item>
+	
+	<item id='history_stage1_text_en'>Stage 1</item>
+	<item id='history_stage2_text_en'>Stage 2</item>
+	<item id='history_stage3_text_en'>Stage 3</item>
+	
+	<item id='history_episode1_text_en'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	<item id='history_episode2_text_en'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	<item id='history_episode3_text_en'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	
+	<item id='history_episode_stage_pt'>Selecione Fase</item>
+	
+	<item id='history_stage1_text_pt'>Fase 1</item>
+	<item id='history_stage2_text_pt'>Fase 2</item>
+	<item id='history_stage3_text_pt'>Fase 3</item>
+	
+	<item id='history_episode1_text_pt'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	<item id='history_episode2_text_pt'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	<item id='history_episode3_text_pt'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+	
+	<!-- Multiplayer Screen -->
+	<item id='multiplayer_title_en'>Multiplayer</item>
+	
+	<item id='multiplayer_title_pt'>Multiplayer</item>
+	
+	<!-- Store Screen -->
+	<item id='store_title_en'>Store</item>
+	
+	<item id='store_title_pt'>Loja</item>
+	
+	<item id='guns_en'>Guns</item>
+	<item id='guns_pt'>Armas</item>
+	
+	<item id='ammo_en'>Ammo</item>
+	<item id='ammo_pt'>Municao</item>
+	
+	<item id='revolver_en'>Revolver</item>
+	<item id='revolver_pt'>Revolver</item>
+	
+	<item id='shotgun_en'>Shotgun</item>
+	<item id='shotgun_pt'>Shotgun</item>
+	
+	<item id='rifle_en'>Rifle</item>
+	<item id='rifle_pt'>Rifle</item>
+	
+	<item id='bullets_en'>Bullets</item>
+	<item id='bullets_pt'>Balas</item>
+	
+	<item id='shells_en'>Shells</item>
+	<item id='shells_pt'>Cartuchos</item>
+	
+	<item id='money_en'>Money:</item>
+	<item id='money_pt'>Dinheiro:</item>
+	
+	<!-- Achievements Screen -->
+	<item id='achievements_title_en'>Achievements</item>
+	
+	<item id='achievements_title_pt'>Conquistas</item>
+	
+	<item id='badge_episode1_en'>Achieve this badge when you finish episode 1</item>
+	<item id='badge_episode1_pt'>Conquiste esta medalha quando terminar o episodio 1</item>
+	
+	<item id='badge_episode2_en'>Achieve this badge when you finish episode 2</item>
+	<item id='badge_episode2_pt'>Conquiste esta medalha quando terminar o episodio 2</item>
+	
+	<item id='badge_episode3_en'>Achieve this badge when you finish episode 3</item>
+	<item id='badge_episode3_pt'>Conquiste esta medalha quando terminar o episodio 3</item>
+	
+	<item id='badge_bandits_en'>Achieve this badge when you kill 100 bandits</item>
+	<item id='badge_bandits_pt'>Conquiste esta medalha quando matar 100 bandidos</item>
+	
+	<item id='badge_indians_en'>Achieve this badge when you kill 100 indians</item>
+	<item id='badge_indians_pt'>Conquiste esta medalha quando matar 100 indios</item>
+	
+	<item id='badge_mexicans_en'>Achieve this badge when you kill 100 mexicans</item>
+	<item id='badge_mexicans_pt'>Conquiste esta medalha quando matar 100 mexicanos</item>
+	
+	<item id='badge_rare_en'>Achieve this badge when you get a rare item</item>
+	<item id='badge_rare_pt'>Conquiste esta medalha quando adquirir um item raro</item>
+	
+	<item id='badge_pistol_en'>Achieve this badge when you hit 500 shots with a pistol</item>
+	<item id='badge_pistol_pt'>Conquiste esta medalha quando acertar 500 tiros com uma pistola</item>
+	
+	<item id='badge_revolver_en'>Achieve this badge when you hit 500 shots with a revolver</item>
+	<item id='badge_revolver_pt'>Conquiste esta medalha quando acertar 500 tiros com um revolver</item>
+	
+	<item id='badge_shotgun_en'>Achieve this badge when you hit 500 shots with a shotgun</item>
+	<item id='badge_shotgun_pt'>Conquiste esta medalha quando acertar 500 tiros com uma shotgun</item>
+	
+	<item id='badge_rifle_en'>Achieve this badge when you hit 500 shots with a rifle</item>
+	<item id='badge_rifle_pt'>Conquiste esta medalha quando acertar 500 tiros com um rifle</item>
+	
+	<!-- Controls Screen -->
+	<item id='controls_title_en'>Controls</item>
+	
+	<item id='controls_title_pt'>Controles</item>
+	
+	<item id='move_en'>Move: Arrows or WASD keys</item>
+	<item id='move_pt'>Move: Setas ou nas teclas WASD</item>
+	
+	<item id='jump_en'>Jump: Space</item>
+	<item id='jump_pt'>Pulo: Espaco</item>
+	
+	<item id='shoot_en'>Shoot: Ctrl/Control</item>
+	<item id='shoot_pt'>Atira: Ctrl/Control</item>
+	
+	<item id='run_en'>Run: Shift</item>
+	<item id='run_pt'>Corre: Shift</item>
+	
+	<item id='weapon_en'>Change Weapon: 1, 2, 3 and 4</item>
+	<item id='weapon_pt'>Troca de Armas: 1, 2, 3 e 4</item>
+	
+	<!-- Stage Screen -->
+	<item id='episode_text_en'>Episode</item>
+	<item id='stage_text_en'>Stage</item>
+	
+	<item id='episode_text_pt'>Episodio</item>
+	<item id='stage_text_pt'>Fase</item>
+	
+	<item id=''></item>
+</data>

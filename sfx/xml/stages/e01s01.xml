@@ -1,0 +1,266 @@
+<data episode="1" stage="1">
+	<templates>
+		<object id="fence">
+			<values>
+				<item id="graphic">fence</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="enemy">
+			<values>
+				<item id="graphic">enemy</item>
+				<item id="facing">right</item>
+				<item id="hp">5</item>
+				<item id="maxhp">5</item>
+				<item id="type">bandits</item>
+				<item id="hit_sound">blood_sound</item>
+				<item id="die_sound">dying_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="sm" type="com.diegoprestes.game.components.ai.StateMachineComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="gold">0.1</item>
+						<item id="money_100">0.2</item>
+						<item id="money_50">0.4</item>
+						<item id="money_10">1</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="barrel">
+			<values>
+				<item id="graphic">barrel</item>
+				<item id="facing">right</item>
+				<item id="hp">1</item>
+				<item id="maxhp">1</item>
+				<item id="die_sound">crate_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="money_50">0.5</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="dummy">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</templates>
+	
+	<objects>
+		<!-- CHARACTERS -->
+		<object id="player" x="100" y="520" />
+		
+		<object id="end" x="6040" y="342" />
+		
+		<object id="enemy1" template="enemy" group="enemy" x="1932" y="440" />
+		
+		<object id="enemy2" template="enemy" group="enemy" x="2400" y="440" />
+		
+		<object id="enemy3" template="enemy" group="enemy" x="2400" y="280" />
+		
+		<object id="enemy4" template="enemy" group="enemy" x="2400" y="120" />
+		
+		<object id="enemy5" template="enemy" group="enemy" x="2980" y="200" />
+		
+		<object id="enemy6" template="enemy" group="enemy" x="3686" y="520" />
+		
+		<object id="enemy7" template="enemy" group="enemy" x="3928" y="520" />
+		
+		<object id="enemy8" template="enemy" group="enemy" x="3458" y="280" />
+		
+		<object id="enemy9" template="enemy" group="enemy" x="3900" y="40" />
+		
+		<object id="enemy10" template="enemy" group="enemy" x="5028" y="480" />
+		
+		<object id="enemy11" template="enemy" group="enemy" x="5351" y="440" />
+		
+		<!-- ITEMS -->
+		<object id="barrel1" template="barrel" group="breakable" x="230" y="520" />
+		<object id="barrel2" template="barrel" group="breakable" x="490" y="520" />
+		
+		<object id="barrel3" template="barrel" group="breakable" x="3110" y="520" />
+		<object id="barrel4" template="barrel" group="breakable" x="3110" y="480" />
+		<object id="barrel5" template="barrel" group="breakable" x="3110" y="440" />
+		
+		<!-- SCENARY -->
+		<object id="sheriff_house" group="bg" x="45" y="325">
+			<values>
+				<item id="graphic">sheriff_house</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="cow" group="bg" x="380" y="490">
+			<values>
+				<item id="graphic">cow</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="fence1" template="fence" group="f1" x="360" y="528" />
+		
+		<object id="fence2" template="fence" group="f1" x="421" y="528" />
+		
+		<object id="fence3" template="fence" group="f1" x="482" y="528" />
+		
+		<object id="barn" group="bg" x="530" y="299">
+			<values>
+				<item id="graphic">barn</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="fence4" template="fence" group="f1" x="543" y="528" />
+		
+		<object id="fence5" template="fence" group="f1" x="604" y="528" />
+		
+		<object id="fence6" template="fence" group="f1" x="665" y="528" />
+		
+		<object id="fence7" template="fence" group="f1" x="726" y="528" />
+		
+		<object id="fence8" template="fence" group="f1" x="787" y="528" />
+		
+		<object id="fence9" template="fence" group="f1" x="848" y="528" />
+		
+		<object id="saloon" group="bg" x="915" y="299">
+			<values>
+				<item id="graphic">saloon</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="wagon" group="bg" x="1235" y="429">
+			<values>
+				<item id="graphic">wagon</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="cloud1" group="b2" x="360" y="20">
+			<values>
+				<item id="graphic">cloud</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="cloud2" group="b2" x="560" y="80">
+			<values>
+				<item id="graphic">cloud2</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain1" group="b2" x="120" y="332">
+			<values>
+				<item id="graphic">mountain1</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain3" group="b1" x="280" y="321">
+			<values>
+				<item id="graphic">mountain3</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain5" group="b2" x="880" y="438">
+			<values>
+				<item id="graphic">mountain5</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="dummy" template="" group="" x="" y="">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</objects>
+</data>

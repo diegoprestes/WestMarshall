@@ -1,0 +1,44 @@
+<data episode="3" stage="2">
+	<templates>
+		<object id="dummy">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</templates>
+	
+	<objects>
+		<!-- CHARACTERS -->
+		<object id="player" x="100" y="420" />
+		
+		<object id="dummy" template="" group="" x="" y="">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</objects>
+</data>

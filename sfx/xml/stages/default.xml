@@ -1,0 +1,74 @@
+<data>
+	<templates>
+	</templates>
+	
+	<objects>
+		<!-- HUD ELEMENTS -->
+		<object id="player_data" group="hud" x="10" y="10">
+			<components>
+				<component id="player_data" type="com.diegoprestes.game.components.hud.CharacterDataComponent" message="true">
+					<values>
+						<item id="target">player</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="enemy_data" group="hud" x="320" y="555">
+			<components>
+				<component id="enemy_data" type="com.diegoprestes.game.components.hud.CharacterDataComponent" message="true">
+					<values>
+						<item id="target">enemy</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="stage_data" group="hud" x="357" y="10">
+			<components>
+				<component id="stage_data" type="com.diegoprestes.game.components.hud.StageNameComponent" message="true" />
+			</components>
+		</object>
+		
+		<object id="gun_data" group="hud" x="5" y="60">
+			<components>
+				<component id="gun_data" type="com.diegoprestes.game.components.hud.GunDataComponent" message="true" />
+			</components>
+		</object>
+		
+		<!-- PLAYER -->
+		<object id="player" group="player" x="100" y="420">
+			<values>
+				<item id="graphic">player</item>
+				<item id="hp">10</item>
+				<item id="maxhp">10</item>
+				<item id="hit_sound">blood_sound</item>
+				<item id="die_sound">dying_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="keyboard" type="com.diegoprestes.game.components.KeyboardComponent" />
+				<component id="jump" type="com.diegoprestes.game.components.JumpComponent" />
+				<component id="weapon" type="com.diegoprestes.game.components.WeaponComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+			</components>
+		</object>
+		
+		<!-- END STAGE -->
+		<object id="end" group="item" x="530" y="420">
+			<values>
+				<item id="graphic">sign</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="end" type="com.diegoprestes.game.components.EndComponent" />
+			</components>
+		</object>
+	</objects>
+</data>

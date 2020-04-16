@@ -1,0 +1,203 @@
+<data episode="1" stage="2">
+	<templates>
+		<object id="dummy">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</templates>
+	
+	<objects>
+		<!-- CHARACTERS -->
+		<object id="player" x="100" y="520" />
+		
+		<object id="end" x="1500" y="450" />
+		
+		<object id="enemy1" group="enemy" x="360" y="440">
+			<values>
+				<item id="graphic">enemy</item>
+				<item id="facing">right</item>
+				<item id="hp">10</item>
+				<item id="maxhp">10</item>
+				<item id="type">bandits</item>
+				<item id="hit_sound">blood_sound</item>
+				<item id="die_sound">dying_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="sm" type="com.diegoprestes.game.components.ai.StateMachineComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="gold">0.05</item>
+						<item id="money_100">0.1</item>
+						<item id="money_50">0.3</item>
+						<item id="money_10">1</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="enemy2" group="enemy" x="550" y="520">
+			<values>
+				<item id="graphic">player</item>
+				<item id="facing">right</item>
+				<item id="hp">5</item>
+				<item id="maxhp">5</item>
+				<item id="type">indians</item>
+				<item id="hit_sound">blood_sound</item>
+				<item id="die_sound">dying_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="sm" type="com.diegoprestes.game.components.ai.StateMachineComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="gold">0.1</item>
+						<item id="money_100">0.2</item>
+						<item id="money_50">0.4</item>
+						<item id="money_10">1</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<!-- ITEMS -->
+		<object id="barrel" group="breakable" x="230" y="520">
+			<values>
+				<item id="graphic">barrel</item>
+				<item id="facing">right</item>
+				<item id="hp">1</item>
+				<item id="maxhp">1</item>
+				<item id="die_sound">crate_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="gold">1</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<object id="barrel2" group="breakable" x="460" y="520">
+			<values>
+				<item id="graphic">barrel</item>
+				<item id="facing">right</item>
+				<item id="hp">1</item>
+				<item id="maxhp">1</item>
+				<item id="die_sound">crate_sound</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+				<component id="collision" type="com.diegoprestes.game.components.CollisionComponent" />
+				<component id="physics" type="com.diegoprestes.game.components.PhysicsComponent" />
+				<component id="health" type="com.diegoprestes.game.components.HealthComponent" />
+				<component id="drop" type="com.diegoprestes.game.components.DropComponent">
+					<values>
+						<item id="money_50">0.5</item>
+					</values>
+				</component>
+			</components>
+		</object>
+		
+		<!-- SCENARY -->
+		<object id="cloud1" group="b2" x="360" y="20">
+			<values>
+				<item id="graphic">cloud</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="cloud2" group="b2" x="560" y="80">
+			<values>
+				<item id="graphic">cloud2</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain1" group="b2" x="120" y="332">
+			<values>
+				<item id="graphic">mountain1</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain3" group="b1" x="280" y="321">
+			<values>
+				<item id="graphic">mountain3</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="mountain5" group="b2" x="880" y="438">
+			<values>
+				<item id="graphic">mountain5</item>
+				<item id="facing">right</item>
+			</values>
+			
+			<components>
+				<component id="graphic" type="com.diegoprestes.game.components.GraphicComponent" />
+			</components>
+		</object>
+		
+		<object id="dummy" template="" group="" x="" y="">
+			<values>
+				<item id=""></item>
+				<item id=""></item>
+				<item id=""></item>
+			</values>
+			
+			<components>
+				<component id="" type="">
+					<values>
+						<item id=""></item>
+						<item id=""></item>
+						<item id=""></item>
+					</values>
+				</component>
+			</components>
+		</object>
+	</objects>
+</data>
